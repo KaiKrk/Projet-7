@@ -6,6 +6,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients("microserviceclientui.clientui")
+
 public class ClientuiApplication {
 
     public static void main(String[] args) {

@@ -12,7 +12,7 @@ import java.util.List;
 public interface MicroserviceBookProxy {
 
     @GetMapping("/books")
-    public List<BookBean> books();
+    List<BookBean> books();
 
     @GetMapping("/books/{id}")
     BookBean getBook(@PathVariable("id") int id);
