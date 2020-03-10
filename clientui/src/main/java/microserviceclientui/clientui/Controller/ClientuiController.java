@@ -12,7 +12,6 @@ import org.springframework.http.ResponseEntity;
 //import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 
 @RestController
 public class ClientuiController {
@@ -36,7 +35,7 @@ public class ClientuiController {
 
     @GetMapping("books")
     public String books(){
-        List<BookBean> books = microserviceBookProxy.books();
+//        List<BookBean> books = microserviceBookProxy.books();
         return "books";
     }
 

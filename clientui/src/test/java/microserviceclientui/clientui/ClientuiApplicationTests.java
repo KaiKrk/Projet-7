@@ -1,13 +1,13 @@
-package microserviceclientui.clientui;
+//package microserviceclientui.clientui;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+//import org.junit.jupiter.api.Test;
+//import org.springframework.boot.test.context.SpringBootTest;
+//
+//@SpringBootTest
+//class ClientuiApplicationTests {
+//
+//    @Test
+//    void contextLoads() {
+//    }
 
-@SpringBootTest
-class ClientuiApplicationTests {
-
-    @Test
-    void contextLoads() {
-    }
-
-}
+//}
