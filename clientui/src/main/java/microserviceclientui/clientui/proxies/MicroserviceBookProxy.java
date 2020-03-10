@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import java.awt.print.Book;
 import java.util.List;
 
-@FeignClient(name = "microservice-book", url = "localhost:9001")
+@FeignClient(name = "zuul-server")
 public interface MicroserviceBookProxy {
 
-    @GetMapping("/books")
+    @GetMapping("/microservice-book/books")
     List<BookBean> books();
 
     @GetMapping("/books/{id}")
