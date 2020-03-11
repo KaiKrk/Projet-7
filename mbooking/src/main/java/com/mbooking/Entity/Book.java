@@ -1,4 +1,4 @@
-package com.mbook.Entity;
+package com.mbooking.Entity;
 
 import javax.persistence.*;
 
